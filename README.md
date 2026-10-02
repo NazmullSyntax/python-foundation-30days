@@ -22,3 +22,26 @@ Or run a notebook in Jupyter Notebook or VS Code.
 ## Goal
 
 Learn core Python concepts such as variables, data types, input/output, arithmetic, and beginner problem solving through daily practice.
+# Chained comparison
+if 18 <= age <= 65: ...
+
+# match/case
+match command:
+    case "start": ...
+    case _: ...
+
+# Guard clause
+if not item: return "No item"
+
+# Comprehension filter
+evens = [n for n in nums if n % 2 == 0]
+
+# all / any
+all(s >= 60 for s in scores)
+any(s == 100 for s in scores)
+
+# Walrus
+if (n := len(data)) > 5: ...
+
+# OR shortcut
+if role in ("admin", "editor", "moderator"): ...
